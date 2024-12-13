@@ -69,14 +69,6 @@ export default function Menu() {
                         <button className="btn btn-outline-success me-2" type="submit" disabled={!searchType}>
                             Buscar
                         </button>
-                        <button
-                            className="btn btn-outline-secondary"
-                            type="button"
-                            onClick={clearFilter}
-                            disabled={!searchType}
-                        >
-                            Limpiar Filtro
-                        </button>
                     </form>
                 </div>
             </div>
