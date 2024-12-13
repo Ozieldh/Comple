@@ -27,13 +27,6 @@ export default function Menu() {
         }
     };
 
-    const clearFilter = () => {
-        setSearchTerm(""); // Limpiar el término de búsqueda
-        if (searchType) {
-            router.push(`/${searchType}/mostrar`); // Redirigir a la página sin el filtro
-        }
-    };
-
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
